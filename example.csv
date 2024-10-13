@@ -1,0 +1,109 @@
+timestamp,device,measure,value
+0,cpu,logical_CPU,8
+0,cpu,physical_CPU,4
+0,ram,total_memory,8201388032
+0,ram,total_swap,0
+0,disks,num_partitions,33
+0,disks,physical_partitions,2
+0,tempertature,critical_pch_cannonlake|,
+0,tempertature,critical_iwlwifi_1|,
+0,tempertature,critical_coretemp|Package id 0,100.0
+0,tempertature,critical_coretemp|Core 0,100.0
+0,tempertature,critical_coretemp|Core 1,100.0
+0,tempertature,critical_coretemp|Core 2,100.0
+0,tempertature,critical_coretemp|Core 3,100.0
+1728812980,cpu,cpu_percent,0.0
+1728812980,cpu,user_time,7274.76
+1728812980,cpu,system_time,2734.01
+1728812980,cpu,idle_time,467047.16
+1728812980,cpu,frequency,4056.696
+1728812980,ram,ram_percent,72.6
+1728812980,ram,swap_percent,0.0
+1728812980,disks,disk_percent,79.8
+1728812980,disks,write_count,282734
+1728812980,disks,write_bytes,3460258816
+1728812980,disks,read_count,60717
+1728812980,disks,read_bytes,3046044672
+1728812980,tempertature,pch_cannonlake|,54.0
+1728812980,tempertature,iwlwifi_1|,39.0
+1728812980,tempertature,coretemp|Package id 0,68.0
+1728812980,tempertature,coretemp|Core 0,50.0
+1728812980,tempertature,coretemp|Core 1,51.0
+1728812980,tempertature,coretemp|Core 2,68.0
+1728812980,tempertature,coretemp|Core 3,49.0
+1728812982,cpu,cpu_percent,2.1
+1728812982,cpu,user_time,7274.93
+1728812982,cpu,system_time,2734.1
+1728812982,cpu,idle_time,467062.73
+1728812982,cpu,frequency,800.0041249999999
+1728812982,ram,ram_percent,72.5
+1728812982,ram,swap_percent,0.0
+1728812982,disks,disk_percent,79.8
+1728812982,disks,write_count,282737
+1728812982,disks,write_bytes,3460271104
+1728812982,disks,read_count,60719
+1728812982,disks,read_bytes,3046052864
+1728812982,tempertature,pch_cannonlake|,55.0
+1728812982,tempertature,iwlwifi_1|,39.0
+1728812982,tempertature,coretemp|Package id 0,47.0
+1728812982,tempertature,coretemp|Core 0,46.0
+1728812982,tempertature,coretemp|Core 1,47.0
+1728812982,tempertature,coretemp|Core 2,48.0
+1728812982,tempertature,coretemp|Core 3,48.0
+1728812984,cpu,cpu_percent,2.0
+1728812984,cpu,user_time,7275.09
+1728812984,cpu,system_time,2734.21
+1728812984,cpu,idle_time,467078.32
+1728812984,cpu,frequency,800.0325000000001
+1728812984,ram,ram_percent,72.5
+1728812984,ram,swap_percent,0.0
+1728812984,disks,disk_percent,79.8
+1728812984,disks,write_count,282740
+1728812984,disks,write_bytes,3460361216
+1728812984,disks,read_count,60719
+1728812984,disks,read_bytes,3046052864
+1728812984,tempertature,pch_cannonlake|,55.0
+1728812984,tempertature,iwlwifi_1|,38.0
+1728812984,tempertature,coretemp|Package id 0,48.0
+1728812984,tempertature,coretemp|Core 0,45.0
+1728812984,tempertature,coretemp|Core 1,47.0
+1728812984,tempertature,coretemp|Core 2,45.0
+1728812984,tempertature,coretemp|Core 3,50.0
+1728812986,cpu,cpu_percent,1.9
+1728812986,cpu,user_time,7275.25
+1728812986,cpu,system_time,2734.28
+1728812986,cpu,idle_time,467093.97
+1728812986,cpu,frequency,800.0275
+1728812986,ram,ram_percent,72.4
+1728812986,ram,swap_percent,0.0
+1728812986,disks,disk_percent,79.8
+1728812986,disks,write_count,282741
+1728812986,disks,write_bytes,3460365312
+1728812986,disks,read_count,60719
+1728812986,disks,read_bytes,3046052864
+1728812986,tempertature,pch_cannonlake|,54.0
+1728812986,tempertature,iwlwifi_1|,40.0
+1728812986,tempertature,coretemp|Package id 0,48.0
+1728812986,tempertature,coretemp|Core 0,46.0
+1728812986,tempertature,coretemp|Core 1,48.0
+1728812986,tempertature,coretemp|Core 2,44.0
+1728812986,tempertature,coretemp|Core 3,48.0
+1728812988,cpu,cpu_percent,2.1
+1728812988,cpu,user_time,7275.4
+1728812988,cpu,system_time,2734.42
+1728812988,cpu,idle_time,467109.63
+1728812988,cpu,frequency,800.045875
+1728812989,ram,ram_percent,72.4
+1728812989,ram,swap_percent,0.0
+1728812989,disks,disk_percent,79.8
+1728812989,disks,write_count,282741
+1728812989,disks,write_bytes,3460365312
+1728812989,disks,read_count,60719
+1728812989,disks,read_bytes,3046052864
+1728812989,tempertature,pch_cannonlake|,54.0
+1728812989,tempertature,iwlwifi_1|,38.0
+1728812989,tempertature,coretemp|Package id 0,48.0
+1728812989,tempertature,coretemp|Core 0,46.0
+1728812989,tempertature,coretemp|Core 1,47.0
+1728812989,tempertature,coretemp|Core 2,45.0
+1728812989,tempertature,coretemp|Core 3,50.0
