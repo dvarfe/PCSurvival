@@ -1,109 +1,151 @@
 timestamp,device,measure,value
 0,cpu,logical_CPU,8
 0,cpu,physical_CPU,4
-0,ram,total_memory,8201388032
-0,ram,total_swap,0
-0,disks,num_partitions,33
+0,ram,total_memory,8464257024
+0,ram,total_swap,9663676416
+0,disks,num_partitions,2
 0,disks,physical_partitions,2
-0,tempertature,critical_pch_cannonlake|,
-0,tempertature,critical_iwlwifi_1|,
-0,tempertature,critical_coretemp|Package id 0,100.0
-0,tempertature,critical_coretemp|Core 0,100.0
-0,tempertature,critical_coretemp|Core 1,100.0
-0,tempertature,critical_coretemp|Core 2,100.0
-0,tempertature,critical_coretemp|Core 3,100.0
-1728812980,cpu,cpu_percent,0.0
-1728812980,cpu,user_time,7274.76
-1728812980,cpu,system_time,2734.01
-1728812980,cpu,idle_time,467047.16
-1728812980,cpu,frequency,4056.696
-1728812980,ram,ram_percent,72.6
-1728812980,ram,swap_percent,0.0
-1728812980,disks,disk_percent,79.8
-1728812980,disks,write_count,282734
-1728812980,disks,write_bytes,3460258816
-1728812980,disks,read_count,60717
-1728812980,disks,read_bytes,3046044672
-1728812980,tempertature,pch_cannonlake|,54.0
-1728812980,tempertature,iwlwifi_1|,39.0
-1728812980,tempertature,coretemp|Package id 0,68.0
-1728812980,tempertature,coretemp|Core 0,50.0
-1728812980,tempertature,coretemp|Core 1,51.0
-1728812980,tempertature,coretemp|Core 2,68.0
-1728812980,tempertature,coretemp|Core 3,49.0
-1728812982,cpu,cpu_percent,2.1
-1728812982,cpu,user_time,7274.93
-1728812982,cpu,system_time,2734.1
-1728812982,cpu,idle_time,467062.73
-1728812982,cpu,frequency,800.0041249999999
-1728812982,ram,ram_percent,72.5
-1728812982,ram,swap_percent,0.0
-1728812982,disks,disk_percent,79.8
-1728812982,disks,write_count,282737
-1728812982,disks,write_bytes,3460271104
-1728812982,disks,read_count,60719
-1728812982,disks,read_bytes,3046052864
-1728812982,tempertature,pch_cannonlake|,55.0
-1728812982,tempertature,iwlwifi_1|,39.0
-1728812982,tempertature,coretemp|Package id 0,47.0
-1728812982,tempertature,coretemp|Core 0,46.0
-1728812982,tempertature,coretemp|Core 1,47.0
-1728812982,tempertature,coretemp|Core 2,48.0
-1728812982,tempertature,coretemp|Core 3,48.0
-1728812984,cpu,cpu_percent,2.0
-1728812984,cpu,user_time,7275.09
-1728812984,cpu,system_time,2734.21
-1728812984,cpu,idle_time,467078.32
-1728812984,cpu,frequency,800.0325000000001
-1728812984,ram,ram_percent,72.5
-1728812984,ram,swap_percent,0.0
-1728812984,disks,disk_percent,79.8
-1728812984,disks,write_count,282740
-1728812984,disks,write_bytes,3460361216
-1728812984,disks,read_count,60719
-1728812984,disks,read_bytes,3046052864
-1728812984,tempertature,pch_cannonlake|,55.0
-1728812984,tempertature,iwlwifi_1|,38.0
-1728812984,tempertature,coretemp|Package id 0,48.0
-1728812984,tempertature,coretemp|Core 0,45.0
-1728812984,tempertature,coretemp|Core 1,47.0
-1728812984,tempertature,coretemp|Core 2,45.0
-1728812984,tempertature,coretemp|Core 3,50.0
-1728812986,cpu,cpu_percent,1.9
-1728812986,cpu,user_time,7275.25
-1728812986,cpu,system_time,2734.28
-1728812986,cpu,idle_time,467093.97
-1728812986,cpu,frequency,800.0275
-1728812986,ram,ram_percent,72.4
-1728812986,ram,swap_percent,0.0
-1728812986,disks,disk_percent,79.8
-1728812986,disks,write_count,282741
-1728812986,disks,write_bytes,3460365312
-1728812986,disks,read_count,60719
-1728812986,disks,read_bytes,3046052864
-1728812986,tempertature,pch_cannonlake|,54.0
-1728812986,tempertature,iwlwifi_1|,40.0
-1728812986,tempertature,coretemp|Package id 0,48.0
-1728812986,tempertature,coretemp|Core 0,46.0
-1728812986,tempertature,coretemp|Core 1,48.0
-1728812986,tempertature,coretemp|Core 2,44.0
-1728812986,tempertature,coretemp|Core 3,48.0
-1728812988,cpu,cpu_percent,2.1
-1728812988,cpu,user_time,7275.4
-1728812988,cpu,system_time,2734.42
-1728812988,cpu,idle_time,467109.63
-1728812988,cpu,frequency,800.045875
-1728812989,ram,ram_percent,72.4
-1728812989,ram,swap_percent,0.0
-1728812989,disks,disk_percent,79.8
-1728812989,disks,write_count,282741
-1728812989,disks,write_bytes,3460365312
-1728812989,disks,read_count,60719
-1728812989,disks,read_bytes,3046052864
-1728812989,tempertature,pch_cannonlake|,54.0
-1728812989,tempertature,iwlwifi_1|,38.0
-1728812989,tempertature,coretemp|Package id 0,48.0
-1728812989,tempertature,coretemp|Core 0,46.0
-1728812989,tempertature,coretemp|Core 1,47.0
-1728812989,tempertature,coretemp|Core 2,45.0
-1728812989,tempertature,coretemp|Core 3,50.0
+0,gpu_NVIDIA GeForce GTX 1650,gpu_name,NVIDIA GeForce GTX 1650
+0,gpu_NVIDIA GeForce GTX 1650,gpu_memory_total,4096.0
+0,gpu_NVIDIA GeForce GTX 1650,max_graphics_clock_frequency,2100.0
+0,gpu_NVIDIA GeForce GTX 1650,max_sm_frequency,2100.0
+1729104328,cpu,cpu_percent,24.4
+1729104328,cpu,user_time,6032.40625
+1729104328,cpu,system_time,5075.187499999985
+1729104328,cpu,idle_time,104100.25
+1729104328,cpu,frequency,2400.0
+1729104328,ram,ram_percent,81.7
+1729104328,ram,swap_percent,5.7
+1729104328,disks,disk_percent,83.2
+1729104328,disks,write_count,751865
+1729104328,disks,write_bytes,24300692480
+1729104328,disks,read_count,821740
+1729104328,disks,read_bytes,26935078400
+1729104328,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104328,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104328,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104328,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104328,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104328,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104328,gpu_NVIDIA GeForce GTX 1650,last_power_draw,5.412
+1729104328,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104330,cpu,cpu_percent,15.7
+1729104330,cpu,user_time,6033.265625
+1729104330,cpu,system_time,5076.734374999985
+1729104330,cpu,idle_time,104113.84375
+1729104330,cpu,frequency,2400.0
+1729104330,ram,ram_percent,82.1
+1729104330,ram,swap_percent,5.7
+1729104330,disks,disk_percent,83.2
+1729104330,disks,write_count,751889
+1729104330,disks,write_bytes,24300803072
+1729104330,disks,read_count,821740
+1729104330,disks,read_bytes,26935078400
+1729104330,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104330,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104330,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104330,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104330,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104330,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104330,gpu_NVIDIA GeForce GTX 1650,last_power_draw,4.721
+1729104330,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104332,cpu,cpu_percent,28.3
+1729104332,cpu,user_time,6035.71875
+1729104332,cpu,system_time,5079.999999999985
+1729104332,cpu,idle_time,104128.5
+1729104332,cpu,frequency,2400.0
+1729104332,ram,ram_percent,81.4
+1729104332,ram,swap_percent,5.7
+1729104332,disks,disk_percent,83.2
+1729104332,disks,write_count,751966
+1729104332,disks,write_bytes,24303145984
+1729104332,disks,read_count,821743
+1729104332,disks,read_bytes,26935098880
+1729104332,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104332,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104332,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104332,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104332,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104332,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104332,gpu_NVIDIA GeForce GTX 1650,last_power_draw,3.908
+1729104332,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104334,cpu,cpu_percent,5.4
+1729104334,cpu,user_time,6036.015625
+1729104334,cpu,system_time,5080.531249999985
+1729104334,cpu,idle_time,104143.75
+1729104334,cpu,frequency,2400.0
+1729104334,ram,ram_percent,81.6
+1729104334,ram,swap_percent,5.7
+1729104334,disks,disk_percent,83.2
+1729104334,disks,write_count,751966
+1729104334,disks,write_bytes,24303145984
+1729104334,disks,read_count,821743
+1729104334,disks,read_bytes,26935098880
+1729104335,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104335,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104335,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104335,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104335,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104335,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104335,gpu_NVIDIA GeForce GTX 1650,last_power_draw,5.284
+1729104335,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104337,cpu,cpu_percent,5.7
+1729104337,cpu,user_time,6036.09375
+1729104337,cpu,system_time,5081.562499999985
+1729104337,cpu,idle_time,104162.71875
+1729104337,cpu,frequency,2400.0
+1729104337,ram,ram_percent,81.4
+1729104337,ram,swap_percent,5.7
+1729104337,disks,disk_percent,83.2
+1729104337,disks,write_count,751973
+1729104337,disks,write_bytes,24305361920
+1729104337,disks,read_count,821743
+1729104337,disks,read_bytes,26935098880
+1729104338,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104338,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104338,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104338,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104338,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104338,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104338,gpu_NVIDIA GeForce GTX 1650,last_power_draw,4.995
+1729104338,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104340,cpu,cpu_percent,11.1
+1729104340,cpu,user_time,6036.375
+1729104340,cpu,system_time,5083.437499999985
+1729104340,cpu,idle_time,104180.6875
+1729104340,cpu,frequency,2400.0
+1729104340,ram,ram_percent,80.4
+1729104340,ram,swap_percent,5.8
+1729104340,disks,disk_percent,83.2
+1729104340,disks,write_count,752086
+1729104340,disks,write_bytes,24314606592
+1729104340,disks,read_count,821743
+1729104340,disks,read_bytes,26935098880
+1729104340,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104340,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104340,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104340,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104340,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,300.0
+1729104340,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,300.0
+1729104340,gpu_NVIDIA GeForce GTX 1650,last_power_draw,5.238
+1729104340,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
+1729104342,cpu,cpu_percent,17.7
+1729104342,cpu,user_time,6038.09375
+1729104342,cpu,system_time,5085.249999999985
+1729104342,cpu,idle_time,104197.25
+1729104342,cpu,frequency,2400.0
+1729104342,ram,ram_percent,81.0
+1729104342,ram,swap_percent,5.8
+1729104342,disks,disk_percent,83.2
+1729104342,disks,write_count,752123
+1729104342,disks,write_bytes,24316560384
+1729104342,disks,read_count,821745
+1729104342,disks,read_bytes,26935168512
+1729104342,gpu_NVIDIA GeForce GTX 1650,utilization,0.0
+1729104342,gpu_NVIDIA GeForce GTX 1650,memory_util,0.0
+1729104342,gpu_NVIDIA GeForce GTX 1650,temperature,55.0
+1729104342,gpu_NVIDIA GeForce GTX 1650,performance,P8
+1729104342,gpu_NVIDIA GeForce GTX 1650,graphics_clock_frequency,645.0
+1729104342,gpu_NVIDIA GeForce GTX 1650,sm_clock_frequency,645.0
+1729104342,gpu_NVIDIA GeForce GTX 1650,last_power_draw,6.66
+1729104342,gpu_NVIDIA GeForce GTX 1650,fan_speed,nan
