@@ -1,4 +1,4 @@
-from posix import login_tty
+import GPUtil
 import psutil
 import time
 import signal
@@ -7,7 +7,6 @@ import csv
 
 # Data is collected once in GET_STATS_TIMEOUT seconds and 
 # recorded on hard drive once in NUM_GET_STATS_ITERS * GET_STATS_TIMEOUT
-#RECORD_TIMEOUT = 15
 NUM_GET_STATS_ITERS = 5
 GET_STATS_TIMEOUT = 2
 FILE_PATH = "data.csv"
@@ -33,6 +32,7 @@ def initialize_data():
         writer.writerows(get_general_info("ram", ram_general_info))
         writer.writerows(get_general_info("disks", disks_general_info))
         writer.writerows(get_temp_general_info())
+        writer.writerows(get_gpu_general_info())
 
 def get_general_info(device, meaurements):
     gen_info = []
@@ -48,7 +48,16 @@ def get_temp_general_info():
         for entry in entries:
             info.append([0, 'tempertature', 'critical_' + name + '|' + entry.label, entry.critical])
     return info
-
+def get_gpu_general_info():
+    info = []
+    gpus = GPUtil.getGPUs()
+    for gpu in gpus:
+        this_device = "gpu_" + gpu.uuid
+        info.append([0, this_device, "gpu_name", gpu.name])
+        info.append([0, this_device, "gpu_memory_total", gpu.memoryTotal])
+        info.append([0, this_device, "driver", gpu.driver])
+    print(info)
+    return info
 
 
 def save_data():
@@ -109,6 +118,33 @@ def get_temperature():
         for entry in entries:
             info.append([cur_time, 'tempertature', name + '|' + entry.label, entry.current])
     return info
+
+# def get_one_gpu_info(gpu):
+#     cur_time = int(time.time())
+#     info = []
+#     this_device = "gpu_" + gpu.uuid
+#     info.append([cur_time, this_device, "gpu_load", gpu.load * 100])
+#     info.append([cur_time, this_device, "gpu_memory_used", gpu.memoryUsed])
+#     info.append([cur_time, this_device, "gpu_memory_util", gpu.memoryUtil])
+#     info.append([cur_time, this_device, "gpu_temperature", gpu.temperature])
+#     return info
+
+
+def get_gpu_info():
+    GPUs = GPUtil.getGPUs()
+    info = []
+    for gpu in GPUs:
+        cur_time = int(time.time())
+        info = []
+        this_device = "gpu_" + gpu.uuid
+        info.append([cur_time, this_device, "gpu_load", gpu.load * 100])
+        info.append([cur_time, this_device, "gpu_memory_used", gpu.memoryUsed])
+        info.append([cur_time, this_device, "gpu_memory_util", gpu.memoryUtil])
+        info.append([cur_time, this_device, "gpu_temperature", gpu.temperature])
+    return info
+ 
+
+    
 def collect_stats():
     i = 1
     global data
@@ -118,12 +154,14 @@ def collect_stats():
         data.append(get_ram_info())
         data.append(get_disk_info())
         data.append(get_temperature())
+        data.append(get_gpu_info()) 
         if i == NUM_GET_STATS_ITERS:
             i = 0
             save_data()
             data = []
         i += 1
         time.sleep(GET_STATS_TIMEOUT)
+
 if __name__ == "__main__":
     initialize_data()
     collect_stats()
