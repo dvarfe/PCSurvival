@@ -1,0 +1,1 @@
+pip install pythonnet psutil GPUtil-fix igpu
